@@ -1,0 +1,2 @@
+<!--#config timefmt='%Y%m%d%H%M%S'-->
+<link rel="stylesheet" href="css/style-m.css?ver=<!--#echo var='DATE_LOCAL'-->">

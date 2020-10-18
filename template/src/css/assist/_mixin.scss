@@ -1,0 +1,46 @@
+@mixin ellipse {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@mixin opacity($num){
+    opacity: $num / 100;
+    filter: alpha(opacity=$num);
+}
+@mixin smallScreen($width: 1450px) {
+    @media screen and (max-width: $width) {
+        @content;
+    }
+}
+@mixin inlineBlock(){
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+@mixin btnColor($color, $percent: 5%) {
+    background: $color;
+    &:hover {
+        background: lighten($color, $percent);
+    }
+    &:active {
+        background: darken($color, $percent);
+    }
+}
+
+/* 三角形 */
+@mixin tri($dir, $color, $bottom, $height) {
+    height: 0;
+    width: 0;
+    border: $bottom / 2 solid transparent;
+    border-#{$dir}: 0;
+    @if $dir == 'top' {
+        border-bottom: $height solid $color;
+    } @else if $dir == 'right' {
+        border-left: $height solid $color;
+    } @else if $dir == 'bottom' {
+        border-top: $height solid $color;
+    } @else if $dir == 'left' {
+        border-right: $height solid $color;
+    }
+}

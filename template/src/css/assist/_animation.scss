@@ -1,0 +1,152 @@
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-30%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+.fadeInLeft {
+    animation: fadeInLeft 0.8s forwards;
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(30%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+.fadeInRight {
+    animation: fadeInRight 0.8s forwards;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 20%, 0);
+    }
+  
+    to {
+        opacity: 1;
+        transform: none; 
+    } 
+}
+.fadeInUp {
+    animation: fadeInUp 0.8s forwards;
+}
+@keyframes slideTo {
+    to {
+        transform: none;
+    }
+}
+@keyframes slideRight {
+    to {
+        transform: translate(30%, 0);
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate(30%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+// 从0开始放大至原始形状
+@keyframes scaleFrom0 {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: none;
+    }
+}
+
+// 闪烁
+@keyframes shining {
+    0%, 100% {
+        opacity: 0;
+        transform: scale(0.5);
+        animation-timing-function: cubic-bezier(.215,.61,.355,1);
+    }
+    20%, 80% {
+        opacity: 1;
+        transform: none;
+        animation-timing-function: cubic-bezier(.755,.05,.855,.06);
+    }
+    60% {
+        opacity: 0.5;
+        transform: scale(1.4);
+        animation-timing-function: cubic-bezier(.755,.05,.855,.06);
+    }
+}
+// hover时一直缩小放大
+@keyframes scaleInfinite {
+    from,
+    to {
+        transform: none;
+    }
+    33% {
+        transform: scale(0.9);
+    }
+    67% {
+        transform: scale(1.1);
+    }
+}
+
+// 图片hover时放大
+%imgScale {
+    overflow: hidden;
+    &:hover {
+        img {
+            transform: scale(1.05);
+        }
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.4s;
+    }
+}
+// 图片hover时上移
+%imgMoveUp {
+    transition: transform 0.4s;
+    &:hover {
+        transform: translate(0, -3%);
+    }
+}
+// 内容hover时角度偏移
+@mixin rotate($deg) {
+    i {
+        transition: transform 0.4s;
+    }
+    &:hover {
+        i {
+            transform: rotate($deg);
+        }
+    }
+}
+@keyframes arrDownload {
+    from {
+        transform: translate(0, -100%);
+    }
+  
+    to {
+        transform: translate(0, 100%);
+    }
+}
+  

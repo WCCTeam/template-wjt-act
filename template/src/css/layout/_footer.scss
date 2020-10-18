@@ -1,0 +1,138 @@
+footer,.footer {
+    height: 170px;
+}
+.sidebar {
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: 140px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    width: 90px;
+    z-index: 100;
+    background: #fff;
+    transition: right 0.5s;
+    &.on{
+        display: block;
+    }
+    li {
+        height: 93px;
+    }
+    a {
+        display: block;
+        height: 92px;
+        padding-top: 1px;
+        &:hover {
+            background: #39a9ec;
+            p {
+                color: #fff;
+            }
+            .contact {
+                background-position:0 -120px;
+            }
+            .mobile {
+                background-position:-344px 0;
+            }
+            .ico-totop {
+                background-position:-316px 0;
+            }
+        }
+        p {
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+            margin-top: 8px;
+        }
+    }
+    .first {
+        position: relative;
+        &:hover {
+            .dl-qr {
+                display: block;
+            }
+        }
+        a {
+            border-radius: 4px 4px 0 0;
+        }
+    }
+    .dl-qr {
+        display: none;
+        position: absolute;
+        left: -108px;
+        top: 0;
+        background: #fff;
+        width: 94px;
+        height: 107px;
+        padding-top: 8px;
+        border: 1px solid #ddd;
+        &:after {
+            background: url(../img/spr.png) -78px -220px;
+            position: absolute;
+            right: -7px;
+            top: 50%;
+            height: 12px;
+            width: 7px;
+            margin-top: -6px;
+            content: '';
+        }
+        img {
+            width: 80px;
+            height: 80px;
+            margin: 0 8px;
+        }
+        p {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+    }
+    i {
+        display: block;
+        background: url(../img/spr.png);
+        margin: 0 auto;
+    }
+    .mobile {
+        height:26px;
+        width:19px;
+        background-position:0 -16px;
+        margin-top: 25px;
+        position: relative;
+    }
+    .contact {
+        margin-top: 25px;
+        height:18px;
+        width:24px;
+        background-position:0 -138px;
+    }
+    .ico-totop {
+        margin-top: 25px;
+        height:20px;
+        width:22px;
+        background-position:0 -76px;
+    }
+    .totop {
+        border-radius: 0 0 4px 4px;
+    }
+    .dl-arrow {
+        position: absolute;
+        overflow: hidden;
+        height:8px;
+        width:7px;
+        top: 6px;
+        left: 6px;
+        &:before {
+            background: url(../img/spr.png) -60px -208px;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            animation: arrDownload 1.5s linear infinite;
+        }
+    }
+}
+
+.edupf-footer{
+    height: 160px !important;
+}

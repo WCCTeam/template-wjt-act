@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <!--#include virtual="inc/meta-m.shtml" -->
+  <title>“献礼抗疫教师”活动</title>
+  <!--#include virtual="inc/head-m.shtml" -->
+</head>
+
+<body>
+  <div class="body-layer">
+    <header>
+      <div class="slogan"><img src="img/banner-m.jpg" alt=""></div>
+    </header>
+    <div class="brief-layer">
+      <div class="brief-top">
+        <img src="img/brief-top.png" alt="" class="bg">
+        <p>活动介绍</p>
+      </div>
+      <div class="brief-body">
+        <h3 class="container-title">献礼抗疫教师</h3>
+        <p class="mid-txt">有一种奉献，叫青丝白发</p>
+        <p class="mid-txt">有一种大爱，叫爱生如子</p><br>
+        <p class="mid-txt">有一种岗位</p>
+        <p class="mid-txt"><strong>传道授业，不拘一时一地</strong></p><br>
+        <p class="mid-txt"><img src="img/yanjing.png" alt="" style="width:200px"></p><br>
+        <p class="mid-txt">忘不了在抗击新冠疫情期间</p>
+        <p class="mid-txt">每天被老师的牵挂“刷屏”</p>
+        <p class="mid-txt">疫情防控知识、居家隔离、科学防护</p>
+        <p class="mid-txt">纵然相隔万里，老师的关心从未缺席</p><br>
+        <p class="mid-txt">忘不了老师们摸索着学习当“主播”</p>
+        <p class="mid-txt">因为忘关麦，经历过全班哄堂大笑的尴尬</p>
+        <p class="mid-txt">花时间一点点研究、一次次调试</p>
+        <p class="mid-txt">就为了保证每堂课能顺利展开</p><br>
+        <p class="mid-txt">在这个特殊的时期里</p>
+        <p class="mid-txt">老师们以实际行动坚定“逆行”</p>
+        <p class="mid-txt">展示了人民教师的责任与担当！</p>
+        <p class="mid-txt">为了感谢老师们为疫情防控做出的贡献</p>
+        <p class="mid-txt">湖北教育云将为全国教师送上</p>
+        <p class="mid-txt" style="color:red">1000张全国旅行一卡通！</p>
+        <p class="mid-txt">全国6000景区不限次数免费游</p>
+        <br />
+        <p class="mid-txt">
+          <strong>活动时间</strong><br />
+          2020年8月7日 - 2020年10月31日
+        </p><br>
+        <p class="mid-txt">
+          <strong>活动对象</strong><br />
+          全省中小学教师
+        </p><br>
+        <p class="mid-txt">
+          <strong>活动内容</strong><br />
+          活动期间，教师每日使用账号密码登入湖北教育云<br />
+          使用教学功能、完成积分任务<br />
+          就有机会获得价值298元旅游卡！
+        </p>
+        <p class="mid-txt">
+          <strong>活动奖励</strong>
+        </p><br>
+        <p class="mid-txt">
+          <strong>一、每月奖励</strong><br>
+          价值298元今日益行·旅游一卡通：每月针对各教学功能分别进行评奖，单个功能使用次数排名前10且达到活动要求（见排名细则）的教师即可获得奖励。<br>
+        </p><br>
+        <p class="mid-img">
+          <img src="img/pic_1.jpg" alt="" width="300px"><br>
+          <img src="img/pic_2.jpg" alt="" width="300px">
+        </p><br>
+        <p class="mid-txt" style="color:red">一年不限时、不限次</p>
+        <p class="mid-txt" style="color:red">免费游全国近6000家景区</p>
+        <p class="mid-txt">每个景区均可免票1次</p>
+        <p class="mid-txt">覆盖全国75%以上2A、3A、4A、5A景区</p>
+        <p class="mid-txt">故宫、八达岭长城、古龙雪山、万州大瀑布等著名景点</p>
+        <p class="mid-txt">任君逍遥游！</p><br>
+        <p class="mid-txt"><strong>旅游卡自激活之日起一年有效</strong></p>
+        <p class="mid-txt">老师们可根据需要自行安排激活时间</p>
+        <p class="mid-txt">同时，老师每成功领取一张旅游卡</p>
+        <p class="mid-txt">将向青爱工程公益项目捐赠1元！</p><br>
+        <p class="mid-txt">
+          <strong>二、礼品奖励</strong><br>
+          抽奖池、商城礼品（含“旅游一卡通”及其它实物礼品）：活动期间，完成教师献礼活动系列任务即可领取海量积分，可用积分直接兑换商城礼品，或通过商城兑换抽奖券抽取抽奖池礼品。<br>
+        </p><br>
+      </div>
+    </div>
+    <div class="tab-layer">
+      <div id='tabItem' class="tab-item">
+        <a class="active" href="javascript:;">参与方式</a>
+        <a href="javascript:;">活动细则</a>
+      </div>
+      <div class="tab-content">
+        <div class="content-item wrapper active">
+          <p class="mid-txt tc">
+            <strong>使用教学功能：</strong><br>
+            在湖北教育云APP应用列表 或 WEB教学空间中，点击【备授课】、【上传资源】、【网络教研】、【成绩管理】、【学生评价】、【作业管理】，每成功使用一次，即可累计对应教学功能的使用次数。（每日单个功能若多次使用，计1次）
+          </p>
+          <p class="mid-img">
+            <img src="img/pic_3.jpg" alt="" width="300px">
+          </p>
+          <p class="mid-txt tc">
+            <strong>积分领取：</strong><br>
+            点击【我】-【任务】，完成相关任务可获得对应积分奖励。
+          </p>
+          <p class="mid-img">
+            <img src="img/pic_4.jpg" alt="" width="300px">
+          </p>
+        </div>
+        <div class="content-item wrapper">
+          <p class="mid-txt">1、每月排名中，参与教师满足以下任一功能的次数要求，则具备对应功能的获奖资格：</p>
+          <p class="mid-txt indent">（1）当月“备授课”备课次数达到3次以上（单次有效行为定义：完成1次有效备课）</p>
+          <p class="mid-txt indent">（2）当月“网络教研”教研次数达到3次以上（单次有效行为定义：成功创建/加入1个教研协作组）</p>
+          <p class="mid-txt indent">（3）当月“上传资源”上传次数达到3次以上（单次有效行为定义：上传1个有效资源）</p>
+          <p class="mid-txt indent">（4）当月“成绩管理”使用次数达到3次以上（单次有效行为定义：创建成功1次成绩）</p>
+          <p class="mid-txt indent">（5）当月“学生评价”评价次数达到3次以上（单次有效行为定义：发布1次评价）</p>
+          <p class="mid-txt indent">（6）当月“作业管理”发布作业次数达到3次以上（单次有效行为定义：布置1次作业）</p>
+          <p>&nbsp;</p>
+          <p class="mid-txt">2、在每月排名中，参与教师不能重复获得奖励。</p>
+          <p>&nbsp;</p>
+          <p class="mid-txt">3、若参与教师排名次数相同，以积分多者获胜。</p>
+          <p>&nbsp;</p>
+          <p class="mid-txt">4、若有任何疑问，可随时联系湖北教育云APP-消息-在线答疑助手，寻求帮助。</p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="footbtn-wrap">
+    <a class="footbtn" id="btnRead" href="javascript:;" title="去阅读打卡">去阅读打卡</a>
+    <a class="footbtn" id="btnGift" href="javascript:;" title="去抽奖">去抽奖</a>
+    <a class="footbtn" id="btnChange" href="javascript:;" title="去兑换礼物">去兑换礼物</a>
+  </div> -->
+  <!--#include virtual="inc/script-m.shtml" -->
+</body>
+
+</html>

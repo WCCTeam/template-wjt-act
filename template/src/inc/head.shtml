@@ -1,0 +1,38 @@
+<!--#config timefmt='%Y%m%d%H%M%S'-->
+<link rel="stylesheet" href="css/style.css?ver=<!--#echo var='DATE_LOCAL'-->">
+<!--[if lt IE 9]>
+<script src="//gcdncs.101.com/v0.1/static/lib/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+    function checkMobile() {
+        var ua = navigator.userAgent.toLowerCase();
+        var brower = {};
+        if (
+            ua.match(
+                /iphone|nokia|sony|ericsson|mot|samsung|sgh|lg|philips|panasonic|alcatel|lenovo|cldc|midp|wap|mobile/i
+            )
+        ) {
+            brower.mobile = true;
+        }
+        if (ua.match(/MicroMessenger/i)) {
+            brower.wechat = true;
+        }
+        if (ua.match(/iphone|ipad/i)) {
+            brower.ios = true;
+        }
+        if (ua.match(/android/i)) {
+            brower.android = true;
+        }
+        if (ua.match(/Windows Phone/i)) {
+            brower.wp = true;
+        }
+        return brower;
+    }
+
+    var ua = checkMobile();
+
+    if (ua.mobile) {
+        location.href = "index-m.shtml";
+    }
+
+</script>
